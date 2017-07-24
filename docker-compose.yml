@@ -1,0 +1,10 @@
+version: '2'
+services:
+    frontend:
+        image: yagouus/prodigen-frontend
+        ports:
+            - 80:80
+    backend:
+        image: yagouus/prodigen-backend
+        ports:
+            - 8080:8080
